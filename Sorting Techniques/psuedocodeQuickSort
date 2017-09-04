@@ -1,0 +1,29 @@
+quickSort(A,start,end)
+{
+
+    if(start>=end)
+        return;
+
+    partitionIndex = partition(A,start,end);
+    quickSort(A,start,partitionIndex-1);
+    quickSort(A, partitionIndex+1, end)
+
+
+}
+
+
+partition(A,start,end)
+{
+    pivot = A[end];
+
+    partitionIndex = start;
+
+    for i = start to end - 1
+    {
+        if(A[i] <= pivot[partitionIndex])
+        {
+            swap(A[i],A[partitionIndex]);
+            partitionIndex = partitionIndex + 1;
+        }
+    }
+}
