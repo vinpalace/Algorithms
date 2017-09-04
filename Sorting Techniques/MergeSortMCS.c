@@ -20,7 +20,7 @@ void main()
 }
 
 
-void mergeSort(int *array,int length_of_array)
+void mergeSort(int array[],int length_of_array)
 {
 
     int mid , i, *leftArray , *rightArray;
