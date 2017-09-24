@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<malloc.h>
 
-void merge(int leftArray[],int rightArray[],int array[]);
-void mergeSort(int array[],int mid);
 int length(int array[]);
+void mergeSort(int array[],int mid);
 void printArray(int array[]);
+void merge(int leftArray[],int rightArray[],int array[]);
 
 void main()
 
