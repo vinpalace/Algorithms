@@ -2,6 +2,8 @@
 
 void insertionSort(int array[], int length_of_array);
 void printArray(int array[],int length_of_array);
+
+
 void main()
 {
     int array[] = {5,7,1,3,41,37,42,9};
